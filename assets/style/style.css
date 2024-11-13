@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Lexend", sans-serif;
+    color: #1f1f1f;
+    font-size: 7px;
+}
+
+.overall-container {
+    background-color: #27394c;
+    border-radius: 10px;
+
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 400px;
+    max-width: 400px;
+
+    position: relative;
+}
+
+.contents-container {
+    background-color: #f2f6fc;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.container-1 {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+
+    height: 115px;
+    width: 360px;
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container-2 {
+    background-color: #27394c;
+    width: 120px;
+
+    position: absolute;
+    right: 20px;
+    top: 155px;
+    bottom: 0;
+
+    padding: 10px;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.profile-pic-container {
+    border-radius: 180px;
+    border: 8px solid #f2f6fc;
+    box-sizing: border-box;
+
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    right: 0px; /* adjest this for profile pic offset */
+    top: 80px;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 180px;
+    object-fit: cover;
+    border: 5.5px solid #223242;
+    box-sizing: border-box;
+}
+
+.container-3 {
+    /* background-color: #7a2323; */
+    height: 500px;
+    width: 195px;
+    padding-left: 20px;
+}
+
+.container-1 .left {
+    width: 200px;
+    padding: 20px;
+}
+
+.container-1 .right {
+    width: 160px;
+    padding: 20px;
+}
+
+.about {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header i {
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border: 1.5px solid #1f1f1f;
+    border-radius: 50%;
+}
+
+.header .small {
+    font-size: 8px;
+}
+
+.header .label {
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.container-1 .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-1 .designation {
+    font-size: 14px;
+    font-weight: 300;
+    /* letter-spacing: 5px; */
+}
+
+.container-2>div {
+    padding-top: 15px;
+}
+
+.container-2 .header i {
+    border: 1.5px solid #fff;
+}
+
+.container-2 .header .label {
+    font-weight: 600;
+}
+
+.contact-info i {
+    font-size: 6px;
+    width: 16px;
+    height: 16px;
+    background-color: #405e7e;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+
+.contact-info .label {
+    margin-left: 2px;
+    color: #c0cdde;
+    line-height: 2.5;
+}
+
+.edu-info {
+    color: #e4e5e6;
+    line-height: 1.5;
+}
+
+.year {
+    font-size: 6px;
+    color: #c0cdde;
+    margin-top: 2px;
+}
+
+.space-bw {
+    margin-bottom: 8px;
+}
+
+.achievement .heading {
+    color: #e4e5e6;
+}
+
+.achievement .content {
+    color: #c0cdde;
+    line-height: 1.5;
+}
+
+.job-experience, .skills, .languages {
+    margin-top: 20px;
+}
+
+.experiences-info .duration,
+.experiences-info .company {
+    color: #94989b;
+}
+
+.experiences-info .role {
+    font-size: 9px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.container-3 .skills-info {
+    line-height: 2;
+}
+.container-3 .skills-info,
+.container-3 .lang-info td>ul {
+    margin-left: 12px;
+    line-height: 1.8;
+}
